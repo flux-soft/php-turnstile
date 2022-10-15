@@ -5,7 +5,7 @@ namespace FluxSoft\Turnstile;
 class Response
 {
     /**
-     * @var bool
+     * @var boolean
      */
     public $success = false;
 
@@ -19,7 +19,7 @@ class Response
     /**
      * Date of resolving captcha
      *
-     * @var [type]
+     * @var string
      */
     public $challengeTs;
 
