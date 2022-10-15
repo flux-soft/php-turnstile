@@ -1,0 +1,29 @@
+{
+    "name": "fluxsoft/php-turnstile",
+    "description": "API Implementation of CloudFlare turnstile for PHP",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/flux-soft/php-turnstile",
+    "keywords": [
+        "cloudflare",
+        "turnstile",
+        "captcha"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fluxsoft\\Turnstile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FluxSoft",
+            "email": "contact@fluxsoft.net",
+            "homepage": "https://fluxsoft.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
