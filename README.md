@@ -1,7 +1,7 @@
 # PHP TURNSTILE
 
 ## Description
-API Implementation of [CloudFlare turnstile](https://www.cloudflare.com/products/turnstile/) for PHP
+API Implementation of [Cloudflare turnstile](https://www.cloudflare.com/products/turnstile/) for PHP
 
 ## Installation
 
