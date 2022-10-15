@@ -6,7 +6,7 @@ API Implementation of [CloudFlare turnstile](https://www.cloudflare.com/products
 ## Installation
 
 ```bash
-composer install fluxsoft/php-turnstile
+composer require fluxsoft/php-turnstile
 ```
 
 ## Usage
