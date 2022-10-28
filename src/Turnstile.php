@@ -75,6 +75,8 @@ class Turnstile
         ]);
 
         $response = curl_exec($curl);
+        
+        curl_close($curl);
 
         return Response::deserialize($response);
     }
