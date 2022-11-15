@@ -39,6 +39,16 @@ class Response
     {
         return !empty($this->errorCodes);
     }
+    
+    /**
+     * Returns true/false depending on success
+     *
+     * @return boolean
+     */
+    public function isSuccess()
+    {
+        return $this->success;
+    }
 
     /**
      * Deserialize json response to response object class
