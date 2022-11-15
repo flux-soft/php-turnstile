@@ -59,7 +59,7 @@ class Turnstile
      * @param string|null $remoteIp
      * @return \FluxSoft\Turnstile\Response
      */
-    public function verify(string $response, string|null $remoteIp = null)
+    public function verify(string $response, ?string $remoteIp = null)
     {
         $curl = curl_init();
         curl_setopt_array($curl, [
